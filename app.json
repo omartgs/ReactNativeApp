@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "reactnativeapp",
+    "name": "Gravity Ball",
     "slug": "reactnativeapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/GravityBallLogo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/GravityBallLogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,18 +17,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.omartgs.reactnativeapp"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/GravityBallLogo.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.omartgs.reactnativeapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/GravityBallLogo.png"
     },
-    "sdkVersion": "44.0.0"
+    "sdkVersion": "44.0.0",
+    "description": ""
   },
-  "name": "reactnativeapp"
+  "name": "Gravity Ball"
 }
